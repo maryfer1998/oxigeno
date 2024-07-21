@@ -5,7 +5,7 @@ import streamlit as st
 
 def show_saved_data():
     # Usar ruta absoluta
-    processed_data_dir = os.path.join(os.path.dirname(_file_), '../data/processed')
+    processed_data_dir = os.path.join(os.path.dirname(__file__), '../data/processed')
 
     if not os.path.exists(processed_data_dir):
         st.write("El directorio 'data/processed' no existe.")
