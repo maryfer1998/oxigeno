@@ -1,4 +1,3 @@
-
 import pandas as pd
 # Divide el conjunto de datos en dos partes ( entrenamiento y prueba )
 from sklearn.model_selection import train_test_split

@@ -35,7 +35,7 @@ def show_saved_data():
 
         # Mostrar el contenido del archivo CSV en la primera columna
         with col1:
-            st.write(f'{file}')  # Mostrar el nombre del archivo en negrita
+            st.write(f'**{file}**')  # Mostrar el nombre del archivo en negrita
             st.dataframe(data)  # Mostrar el DataFrame en la interfaz
 
         # Mostrar un gráfico en la segunda columna, si existe la columna 'Predicción'
